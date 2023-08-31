@@ -1,0 +1,87 @@
+.loading-div {
+  text-align: center;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 50px;
+}
+.underline {
+  width: 100px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: yellow;
+  color: rebeccapurple;
+}
+
+.tour-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.tour-cards {
+  margin: 20px;
+  width: 400px;
+  background-color: rgb(243, 239, 239);
+  border-radius: 7px;
+  overflow: hidden;
+}
+.img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+.tour-name-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 13px;
+}
+
+.tour-name-container span {
+  background-color: rgb(246, 246, 103);
+  padding: 3px;
+  border-radius: 4px;
+}
+.tour-cards p {
+  padding: 10px;
+  font-family: "Segoe UI";
+  font-size: 13px;
+}
+.btn-container {
+  text-align: center;
+  padding: 10px;
+}
+.btn-container button {
+  background: transparent;
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid red;
+  width: 130px;
+  font-family: Tahoma;
+  cursor: pointer;
+}
+.readmore {
+  background-color: transparent;
+  border: none;
+  color: rgb(66, 66, 238);
+}
+.refresh-container {
+  text-align: center;
+  padding: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.refresh-container button {
+  background-color: rgb(246, 246, 103);
+  width: 100px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
